@@ -1,0 +1,77 @@
+footer {
+	background: #F5F3F1;
+	padding: 86px 0;
+}
+.single-content {
+	/* text-align: center; */
+	/* padding: 115px 0; */
+}
+.single-box p {
+	color: black;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
+}
+.single-box .card-area i {
+	color: #A3906D;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: black;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #A3906D;
+	color: black;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+.our-difference-list {
+    /* font-weight: 400; */
+    font-style: normal;
+    /* letter-spacing: .25em; */
+    /* font-size: 3.5rem; */
+    /* display: flex; */
+}
+
+
+#our-difference {
+    font-family: FilosofiaAllSmaCap, Didot, Bodoni MT, Palatino, serif;
+    display: flex;
+    /* margin: 2em auto 0 auto; */
+    /* text-align: start; */
+    /* justify-content: center; */
+    /* padding: 2%; */
+    /* background-color: blue; */
+    justify-content: space-evenly;
+    /* letter-spacing: .2em; */
+
+}

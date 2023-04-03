@@ -8,6 +8,7 @@ import { HashLink } from 'react-router-hash-link';
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [navSize, setnavSize] = useState("10rem");
+    const [ribbon, setribbon] = useState("4rem");
     const [navColor, setnavColor] = useState("transparent");
     const [navItemColor, setnavItemColor] = useState("#fff");
 
@@ -15,6 +16,7 @@ const Header = () => {
         window.scrollY > 10 ? setnavSize("5rem") : setnavSize("5rem");
         window.scrollY > 10 ? setnavColor("#fff") : setnavColor("#fff");
         window.scrollY > 10 ? setnavItemColor("#012049") : setnavItemColor("#fff");
+        window.scrollY > 10 ? setribbon("0rem") : setribbon("4rem");
     };
 
     useEffect(() => {
@@ -28,7 +30,7 @@ const Header = () => {
         <div>
 
             <header>
-                <div id="ribbon-container">
+                <div id="ribbon-container" style={{height: ribbon}} >
                     <span class="ribbon-promo hide-below-768">15% OFF EVERYTHING  until end of the month.</span><span class="bi-txt-info uppercase hide-below-768">&nbsp;Use code: 15FF51</span>
                 </div>
                 <div

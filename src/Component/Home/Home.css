@@ -17,9 +17,9 @@
     /* margin-bottom: 35px; */
 }
 
-.about .content ul li:first-child {
-    /* margin-top: 35px; */
-}
+/* .about .content ul li:first-child {
+    margin-top: 35px;
+} */
 
 .about .content ul i {
     background: #fff;
@@ -100,10 +100,10 @@ section {
 
 /* ===========> */
 
-#about {
-    /* padding: 60px 0 30px 0; */
-    /* background-color: #106eea; */
-}
+/* #about {
+    padding: 60px 0 30px 0;
+    background-color: #106eea;
+} */
 
 #signature {
     margin: 0 auto;
@@ -140,9 +140,9 @@ section {
     }
 }
 
-.set-section-img2 {
-    /* height: 80%; */
-}
+/* .set-section-img2 {
+    height: 80%;
+} */
 
 #sectionText {
     text-align: left;
@@ -171,7 +171,7 @@ section {
     font-size: 1.5rem;
     display: flex;
 } */
-.our-difference-list{
+.our-difference-list {
     /* font-family: FilosofiaAllSmaCap, Didot, Bodoni MT, Palatino, serif; */
     font-weight: 400;
     font-style: normal;
@@ -184,15 +184,16 @@ section {
 .our-difference-list {
     display: flex;
     /* margin: 2em auto 0 auto; */
-text-align: start;
-justify-content: center;
+    text-align: start;
+    justify-content: center;
 }
-.our-difference-list ul li {
-    /* margin: 10; */
-    /* list-style-type: disc; */
-    /* width: 100%; */
-    /* line-height: 1.5; */
-}
+
+/* .our-difference-list ul li {
+    margin: 10;
+    list-style-type: disc;
+    width: 100%;
+    line-height: 1.5;
+} */
 
 li {
     display: list-item;
@@ -209,8 +210,9 @@ li {
 .social-links {
     /* margin: 0 0 40px 0; */
     justify-content: center;
-  }
-  .social-links a {
+}
+
+.social-links a {
     font-size: 18px;
     display: inline-block;
     background: #46423b;
@@ -223,7 +225,8 @@ li {
     width: 36px;
     height: 36px;
     transition: 0.3s;
-  }
+}
+
 .social-links a:hover {
     background: #ffb03b;
-  }
+}

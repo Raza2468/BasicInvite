@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+      <footer class="text-center text-lg-start bg-light text-muted">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <div class="row mt-3">
+                                <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Quick Links
+                                    </h6>
+                                    <div class="our-difference-list">
+                                        <ul>
+                                            <li>Order Assistance</li>
+                                            <li>Instant previews</li>
+                                            <li>Customized samples</li>
+                                            <li>Free custom foil text</li>
+                                            <li>Free websites</li>
+                                            <li>Free address collection</li>
+                                        </ul>
 
-In the project directory, you can run:
+                                        <ul>
+                                            <li>Your Proofs</li>
+                                            <li>Paper Quality</li>
+                                            <li>Free Address Collection</li>
+                                            <li>Our Love It Guarantee</li>
+                                            <li>Shipping Policy</li>
+                                            <li>Contact Us</li>
+                                            <li>Inspiration Gallery</li>
+                                            <li>Basic Invite Blog</li>
+                                            <li>Wording Examples</li>
+                                            <li>Partner Program</li>
+                                            <li>Site Map</li>
+                                        </ul>
 
-### `npm start`
+                                    </div>
+                                </div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+                                {/* <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Quick Links
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset">Your Saved Products</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Order a Custom Sample</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Peel & Seal Envelopes</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Advanced Search</a>
+                                    </p>
+                                    
+                                </div> */}
 
-### `npm test`
+                                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    {/* <!-- Links --> */}
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Useful links
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset">Pricing</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Settings</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Orders</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Help</a>
+                                    </p>
+                                </div>
+                                {/* <!-- Grid column --> */}
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+                                {/* <!-- Grid column --> */}
+                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                    {/* <!-- Links --> */}
+                                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                                    <p>
+                                        <i class="fas fa-envelope me-3"></i>
+                                        info@example.com
+                                    </p>
+                                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                                </div>
+                                {/* <!-- Grid column --> */}
+                            </div>
+                        </div>
+                    </section>
+                    <div class="text-center p-4" >
+                        © 2023 Copyright:
+                        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">faizeraza2468@gmail.com</a>
+                    </div>
+                    {/* <!-- Copyright --> */}
+                </footer>
